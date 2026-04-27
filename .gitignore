@@ -44,6 +44,20 @@ doctors/medical_db/
 doctors/models/
 doctors/__pycache__/
 
+# Bundled AI service
+students-ai/.env
+students-ai/db.sqlite3
+students-ai/chroma/
+students-ai/**/__pycache__/
+students-ai/**/*.pyc
+students-ai/*.log
+students-ai/run-*.out.log
+students-ai/run-*.err.log
+students-ai/startup-*.out.log
+students-ai/startup-*.err.log
+students-ai/static/upload/*
+!students-ai/static/upload/.gitkeep
+
 # IDE / OS
 .idea/
 .vscode/

@@ -1,6 +1,6 @@
 # FlipEdu 翻转课堂教学平台
 
-FlipEdu 是一个面向课程教学、课堂互动、作业测验、签到考勤与 AI 学习辅助的毕业设计项目。项目采用前后端分离结构，当前主仓库包含 Spring Boot 业务后端和 uni-app 前端；AI 助手服务作为独立仓库维护。
+FlipEdu 是一个面向课程教学、课堂互动、作业测验、签到考勤与 AI 学习辅助的毕业设计项目。项目采用前后端分离结构，包含 Spring Boot 业务后端、uni-app 前端和 Python AI 学习助手服务。
 
 ## 项目结构
 
@@ -8,17 +8,12 @@ FlipEdu 是一个面向课程教学、课堂互动、作业测验、签到考勤
 D:\graduation
 ├─ flip-classroom-backend      Spring Boot 后端，端口 18081
 ├─ flip-classroom-uniapp       uni-app 前端，HBuilderX 运行
+├─ students-ai                 Python/Django AI 助手后端，端口 8000
 ├─ README.md                   项目说明
 └─ STARTUP_GUIDE.md            本地启动备忘
 ```
 
-AI 助手后端独立仓库：
-
-```text
-https://github.com/kangjinkai520/AI-doctor.git
-```
-
-本地联调时可将该仓库放在 `D:\graduation\doctors`，其中 Django 服务目录为 `doctors\backend`。
+`students-ai` 由原 AI 后端目录整理而来，真实 `.env`、数据库文件、Chroma 数据和上传图片不会进入仓库。
 
 ## 核心功能
 
@@ -87,10 +82,10 @@ copy flip-classroom-backend\src\main\resources\application.example.properties ^
 
 然后修改本机 MySQL 用户名和密码。
 
-AI 后端在独立仓库 [AI-doctor](https://github.com/kangjinkai520/AI-doctor.git) 中维护。本地联调时，复制 `.env.example` 为 `.env`：
+AI 后端复制 `.env.example` 为 `.env`：
 
 ```bat
-copy doctors\backend\.env.example doctors\backend\.env
+copy students-ai\.env.example students-ai\.env
 ```
 
 再填入自己的智谱 API Key。
@@ -123,7 +118,7 @@ Tomcat started on port 18081
 AI 后端使用 `kevin` Python 环境：
 
 ```bat
-cd /d D:\graduation\doctors\backend
+cd /d D:\graduation\students-ai
 D:\ProgramData\anaconda3\envs\kevin\python.exe manage.py runserver 127.0.0.1:8000 --noreload
 ```
 

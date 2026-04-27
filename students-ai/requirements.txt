@@ -1,0 +1,35 @@
+# Django Web Framework (2026 稳定版)
+Django>=5.2
+djangorestframework
+django-cors-headers
+
+# Database
+# 🚨 注意：如果 mysqlclient 报错，我会教你用 pymysql 替代
+mysqlclient>=2.2.0
+python-dotenv>=1.0.0
+
+# AI & LLM Packages
+# 当前项目默认使用智谱 OpenAI 兼容接口
+# 环境变量：ZHIPU_API_KEY、ZHIPU_TEXT_MODEL、ZHIPU_VISION_MODEL
+openai>=1.50.0
+langchain
+langchain-community
+langchain-openai
+
+# RAG & Embedding (向量数据库)
+chromadb>=0.5.0
+sentence-transformers
+huggingface-hub
+transformers
+
+# Utilities (数据处理)
+# 🚨 3.13 必须用较新版本的 numpy 和 pandas
+requests
+numpy>=2.1.0
+pandas>=2.2.0
+Pillow
+tqdm
+
+# Development tools
+black
+flake8

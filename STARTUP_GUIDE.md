@@ -26,7 +26,7 @@ D:\ProgramData\anaconda3\envs\graduation\Library\lib\jvm\bin\java.exe -jar targe
 打开一个新的 PowerShell 窗口，执行：
 
 ```powershell
-cd D:\graduation\doctors\backend
+cd D:\graduation\students-ai
 D:\ProgramData\anaconda3\envs\kevin\python.exe manage.py runserver 127.0.0.1:8000 --noreload
 ```
 
@@ -45,7 +45,7 @@ D:\ProgramData\anaconda3\envs\kevin\python.exe manage.py runserver 127.0.0.1:800
 ```powershell
 $env:HTTP_PROXY='http://127.0.0.1:6666'
 $env:HTTPS_PROXY='http://127.0.0.1:6666'
-cd D:\graduation\doctors\backend
+cd D:\graduation\students-ai
 D:\ProgramData\anaconda3\envs\kevin\python.exe manage.py runserver 127.0.0.1:8000 --noreload
 ```
 
