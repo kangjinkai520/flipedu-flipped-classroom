@@ -1,0 +1,59 @@
+package com.flipclassroom.dto.material;
+
+public class CreateMaterialRequest {
+
+    private String title;
+    private String materialType;
+    private String description;
+    private String materialUrl;
+    private String publishTime;
+    private Integer status;
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getMaterialType() {
+        return materialType;
+    }
+
+    public void setMaterialType(String materialType) {
+        this.materialType = materialType;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getMaterialUrl() {
+        return materialUrl;
+    }
+
+    public void setMaterialUrl(String materialUrl) {
+        this.materialUrl = materialUrl;
+    }
+
+    public String getPublishTime() {
+        return publishTime;
+    }
+
+    public void setPublishTime(String publishTime) {
+        this.publishTime = publishTime;
+    }
+
+    public Integer getStatus() {
+        return status;
+    }
+
+    public void setStatus(Integer status) {
+        this.status = status;
+    }
+}

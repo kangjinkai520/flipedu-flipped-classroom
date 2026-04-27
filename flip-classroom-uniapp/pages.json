@@ -1,0 +1,176 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "翻转课堂",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/login/student",
+      "style": {
+        "navigationBarTitleText": "学生登录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/login/web",
+      "style": {
+        "navigationBarTitleText": "管理端登录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/admin/dashboard",
+      "style": {
+        "navigationBarTitleText": "管理员总览"
+      }
+    },
+    {
+      "path": "pages/admin/courses",
+      "style": {
+        "navigationBarTitleText": "课程管理"
+      }
+    },
+    {
+      "path": "pages/admin/course_members",
+      "style": {
+        "navigationBarTitleText": "课程成员"
+      }
+    },
+    {
+      "path": "pages/admin/users",
+      "style": {
+        "navigationBarTitleText": "用户管理"
+      }
+    },
+    {
+      "path": "pages/admin/reviews",
+      "style": {
+        "navigationBarTitleText": "审核中心"
+      }
+    },
+    {
+      "path": "pages/teacher/courses",
+      "style": {
+        "navigationBarTitleText": "我的课程"
+      }
+    },
+    {
+      "path": "pages/teacher/members",
+      "style": {
+        "navigationBarTitleText": "课程成员"
+      }
+    },
+    {
+      "path": "pages/teacher/materials",
+      "style": {
+        "navigationBarTitleText": "课程资料"
+      }
+    },
+    {
+      "path": "pages/teacher/notices",
+      "style": {
+        "navigationBarTitleText": "课程公告"
+      }
+    },
+    {
+      "path": "pages/teacher/signs",
+      "style": {
+        "navigationBarTitleText": "签到管理"
+      }
+    },
+    {
+      "path": "pages/teacher/quizzes",
+      "style": {
+        "navigationBarTitleText": "课堂测验"
+      }
+    },
+    {
+      "path": "pages/teacher/assignments",
+      "style": {
+        "navigationBarTitleText": "作业管理"
+      }
+    },
+    {
+      "path": "pages/teacher/feedback",
+      "style": {
+        "navigationBarTitleText": "课堂反馈"
+      }
+    },
+    {
+      "path": "pages/teacher/scores",
+      "style": {
+        "navigationBarTitleText": "成绩管理"
+      }
+    },
+    {
+      "path": "pages/student/courses",
+      "style": {
+        "navigationBarTitleText": "我的课程"
+      }
+    },
+    {
+      "path": "pages/student/assistant",
+      "style": {
+        "navigationBarTitleText": "AI 助手"
+      }
+    },
+    {
+      "path": "pages/student/course_dashboard",
+      "style": {
+        "navigationBarTitleText": "课程详情",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/student/materials",
+      "style": {
+        "navigationBarTitleText": "课程资料"
+      }
+    },
+    {
+      "path": "pages/student/notices",
+      "style": {
+        "navigationBarTitleText": "课程公告"
+      }
+    },
+    {
+      "path": "pages/student/signs",
+      "style": {
+        "navigationBarTitleText": "课程签到"
+      }
+    },
+    {
+      "path": "pages/student/quizzes",
+      "style": {
+        "navigationBarTitleText": "课堂测验"
+      }
+    },
+    {
+      "path": "pages/student/assignments",
+      "style": {
+        "navigationBarTitleText": "课程作业"
+      }
+    },
+    {
+      "path": "pages/student/feedback",
+      "style": {
+        "navigationBarTitleText": "课堂反馈"
+      }
+    },
+    {
+      "path": "pages/student/scores",
+      "style": {
+        "navigationBarTitleText": "学习成绩"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "翻转课堂教学系统",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f5f7fb"
+  }
+}

@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+.m2/
+
+# Java / Maven
+flip-classroom-backend/target/
+flip-classroom-backend/*.log
+flip-classroom-backend/*-test.out.log
+flip-classroom-backend/*-test.err.log
+flip-classroom-backend/startup*.log
+flip-classroom-backend/startup*.out.log
+flip-classroom-backend/startup*.err.log
+flip-classroom-backend/run-*.log
+flip-classroom-backend/run-*.out.log
+flip-classroom-backend/run-*.err.log
+flip-classroom-backend/src/main/resources/application.properties
+
+# uni-app build output
+flip-classroom-uniapp/unpackage/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+doctors/backend/.env
+doctors/backend/db.sqlite3
+doctors/backend/chroma/
+doctors/backend/**/__pycache__/
+doctors/backend/run-*.log
+doctors/backend/run-*.out.log
+doctors/backend/run-*.err.log
+doctors/backend/startup-*.log
+doctors/backend/startup-*.out.log
+doctors/backend/startup-*.err.log
+doctors/.git/
+doctors/.git.local-backup/
+doctors/.idea/
+doctors/.vscode/
+doctors/data/
+doctors/datasets/
+doctors/medical_db/
+doctors/models/
+doctors/__pycache__/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local temp/output
+tmp/
+out/
+*.log
+*.tmp
+
+# Local notes and generated artifacts
+Codex整理/
+初稿/
+老师案例/
+%E5%88%9D%E7%A8%BF/

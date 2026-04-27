@@ -1,0 +1,20 @@
+{
+  "name": "flip-classroom-uniapp",
+  "appid": "__UNI__FLIPCLASSROOM",
+  "description": "基于 uni-app 的翻转课堂教学协作系统前端骨架",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true
+  },
+  "h5": {
+    "title": "翻转课堂教学协作系统"
+  },
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false
+    }
+  }
+}
