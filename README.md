@@ -37,6 +37,12 @@ D:\graduation
 | AI 后端 | Python，Django，智谱 AI API |
 | 数据库 | MySQL，AI 服务可使用 SQLite/MySQL |
 
+依赖说明见：
+
+```text
+DEPENDENCIES.md
+```
+
 ## 本地端口
 
 | 服务 | 地址 |
